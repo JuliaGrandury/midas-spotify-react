@@ -1,70 +1,120 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/JuliaGrandury/midas-spotify-react">
+    <img src="https://img.icons8.com/fluency/64/000000/music-robot.png" alt="Logo" width="80" height="80">
+  </a>
 
-## Available Scripts
+  <h3 align="center">Midas Spotify React App</h3>
 
-In the project directory, you can run:
+  <p align="center">
+    An app to make playlists and save them to your Spotify account!
+    <br />
+    <a href="https://github.com/JuliaGrandury/midas-spotify-react"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="http://midas-spotifyapp.surge.sh/">View Demo</a>
+    ·
+    <a href="https://github.com/JuliaGrandury/midas-spotify-react/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/JuliaGrandury/midas-spotify-react/issues">Request Feature</a>
+  </p>
+</div>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+As of now, this application is a project I used to play around with the Spotify API and React.js. The features to be added (see Roadmap section) will allow users to interact with features they do not have access to on their Spotify app. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Features include:
+* Spotify Login: the user is prompted to log into their Spotify account (or to create one) when they search their first song, album or artist
+* Search: the user can search for tracks by track name, artist name or album name
+* Display Results: after a search, the results from the user's query will be displayed in the leftmost container in the same order Spotify would
+* Make Playlist: the user can add any of the searched for tracks to their playlist by clicking on the "+" sign next to each track
+* Edit Playlist: the user can rename their New Playlist as they see fit and remove songs from the playlist using the "-" next to each track
+* Save Playlist: the user can save their playlist by clicking the "SAVE TO SPOTIFY" button and will soon see it appear on their spotify application
 
-### `npm run eject`
+Use the `BLANK_README.md` to get started.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Built With
 
-## Learn More
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* [React.js](https://reactjs.org/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+<!-- GETTING STARTED -->
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To get a local copy up and running follow these simple steps.
 
-### Making a Progressive Web App
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-### Advanced Configuration
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-### Deployment
+1. Get a free Client ID from Spotify
+* Sign in with your Spotify account or create a free account at Spotify for Developers: https://developer.spotify.com/dashboard/login
+* Click on "create an app" in the upper right hand corner and enter your app name and brief description
+* Under your app name you will find your Client ID
+2. Clone the repo
+   ```sh
+   git clone https://github.com/JuliaGrandury/midas-spotify-react.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your Client ID in `Spotify.js`
+   ```js
+   const API_KEY = 'ENTER YOUR API';
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#top">back to top</a>)</p>
