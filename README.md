@@ -73,11 +73,10 @@ Use the `BLANK_README.md` to get started.
 
 
 
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+### Built With and Deployed With
 
 * [React.js](https://reactjs.org/)
+* [Surge.sh](https://surge.sh/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -86,19 +85,11 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
-
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+You will need to have Node.js and npm package manager installed. If you do not, visit Node.js and download the version labeled LTS. To install the latest version of npm run npm install npm@latest -g. Ensure that both are correctly installed using node -v and npm -v.
 
 ### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 1. Get a free Client ID from Spotify
 * Sign in with your Spotify account or create a free account at Spotify for Developers: https://developer.spotify.com/dashboard/login
@@ -108,11 +99,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    git clone https://github.com/JuliaGrandury/midas-spotify-react.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your Client ID in `Spotify.js`
+3. Enter your Client ID in `Spotify.js`
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
