@@ -109,6 +109,11 @@ You will need to have Node.js and npm package manager installed. If you do not, 
 ## Roadmap
 
 - [ ] Call search on "SEARCH" click or ENTER keypress
+- [ ] Clear the search input area when user clicks on it again
+- [ ] Keep user informed while the playlist is saving
+    - [ ] Add a confirmation message once the playlist has saved
+    - [ ] Add a loading screen while playlist is saving
+- [ ] Verify with user when they try to add a track that is already in Playlist
 - [ ] Add tab to see your own Spotify Account Data
 - [ ] Add another tab to see your playlist library
     - [ ] Allow users to add tabs to them
