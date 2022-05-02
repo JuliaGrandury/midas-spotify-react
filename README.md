@@ -67,10 +67,7 @@ Features include:
 * Edit Playlist: the user can rename their New Playlist as they see fit and remove songs from the playlist using the "-" next to each track
 * Save Playlist: the user can save their playlist by clicking the "SAVE TO SPOTIFY" button and will soon see it appear on their spotify application
 
-Use the `BLANK_README.md` to get started.
-
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 ### Built With and Deployed With
@@ -103,5 +100,18 @@ You will need to have Node.js and npm package manager installed. If you do not, 
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [ ] Call search on "SEARCH" click or ENTER keypress
+- [ ] Add tab to see your own Spotify Account Data
+- [ ] Add another tab to see your playlist library
+    - [ ] Allow users to add tabs to them
+    - [ ] Allow users to edit them
 
 <p align="right">(<a href="#top">back to top</a>)</p>
