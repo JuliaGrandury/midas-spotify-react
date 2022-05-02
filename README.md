@@ -120,3 +120,23 @@ You will need to have Node.js and npm package manager installed. If you do not, 
     - [ ] Allow users to edit them
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Julia Grandury - juliagrandu@gmail.com
+
+Project Link: [https://github.com/JuliaGrandury/web-scraperandbot](https://github.com/JuliaGrandury/web-scraperandbot)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
