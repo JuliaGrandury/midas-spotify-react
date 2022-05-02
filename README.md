@@ -135,7 +135,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Julia Grandury - juliagrandu@gmail.com
+Julia Grandury - booleanjules@gmail.com
 
 Project Link: [https://github.com/JuliaGrandury/web-scraperandbot](https://github.com/JuliaGrandury/web-scraperandbot)
 
